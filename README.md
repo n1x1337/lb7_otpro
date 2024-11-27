@@ -10,17 +10,17 @@
    pip install -r requirements.txt
 
 2. **Запустите RabbitMQ**
-Используйте Docker для запуска RabbitMQ:
-
-docker-compose up -d
+    Используйте Docker для запуска RabbitMQ:
+    ```bash
+    docker-compose up -d
 
 3. **Запустите Producer**
-Передайте URL в качестве аргумента:
-
-python producer.py https://example.com
+    Передайте URL в качестве аргумента:
+    ```bash
+    python producer.py https://example.com
 
 4. **Запустите Consumer**
-Для обработки сообщений из очереди:
-
-python consumer.py
+    Для обработки сообщений из очереди:
+    ```bash
+    python consumer.py
 
